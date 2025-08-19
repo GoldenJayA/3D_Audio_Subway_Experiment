@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "534561221",
+    "Type": "User",
+    "GUID": "{A954F12F-A415-43C8-A88D-ED36878EE1D6}",
+    "Language": "SFX",
+    "Hash": "{7AACDDF9-117D-DB5B-8DF6-565266773D46}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MainSoundbank",
+    "ShortName": "MainSoundbank",
+    "Path": "MainSoundbank.bnk",
+    "Media": [
+     {
+      "Id": "735850728",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Feel The Heat - Sega Bass Fishing.wav",
+      "CachePath": "9F/{9FDD3313-235B-308D-D409-0D13B255618F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1618187162",
+      "Name": "Event_test",
+      "ObjectPath": "\\Events\\Default Work Unit\\Event_test",
+      "GUID": "{88C3BD68-6295-449F-9C83-6471322B538A}",
+      "DurationType": "OneShot",
+      "DurationMin": "161.10933",
+      "DurationMax": "161.10933",
+      "MediaRefs": [
+       {
+        "Id": "735850728"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{799EB076-DB53-341D-4CC9-6B73F54AAAEA}"
+ }
+}

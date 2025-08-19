@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1618187162	Event_test			\Default Work Unit\Event_test	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	735850728	Music_test	C:\Users\angel\OneDrive\Desktop\Thesis project folder\Github Repository\3D_Audio_Subway_Experiment\Subway_Experiment_V2\Subway_Experiment_V2_WwiseProject\.cache\9F\{9FDD3313-235B-308D-D409-0D13B255618F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music_test		30933088
+
