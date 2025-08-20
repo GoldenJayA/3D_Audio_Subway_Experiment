@@ -32,7 +32,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b862ee14fb479fbfe5fffe655d3ed3, type: 3}
   m_Name: MetaQuestTouchProControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Pro Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestpro
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -196,24 +196,24 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 2786033779523425968}
-  - {fileID: -1567226629407258801}
-  - {fileID: 651927998830604346}
-  - {fileID: 8636741857917489582}
-  - {fileID: 6852183758791841828}
-  - {fileID: 820012559094560178}
-  - {fileID: -2029707261523964771}
-  - {fileID: -6472185138118416498}
-  - {fileID: 2609762979490560795}
-  - {fileID: -1586717667896077289}
-  - {fileID: -1748242755246454527}
-  - {fileID: 5538057610691775482}
-  - {fileID: -8389515663613984187}
-  - {fileID: -954176631278117815}
-  - {fileID: 7290559777342732805}
-  - {fileID: -4634986433071300289}
-  - {fileID: 3731720565894327500}
   - {fileID: 6048449824491395845}
+  - {fileID: 5538057610691775482}
+  - {fileID: 651927998830604346}
+  - {fileID: -1748242755246454527}
+  - {fileID: -4634986433071300289}
+  - {fileID: -6472185138118416498}
+  - {fileID: -1567226629407258801}
+  - {fileID: 7290559777342732805}
+  - {fileID: -2029707261523964771}
+  - {fileID: -8389515663613984187}
+  - {fileID: -1586717667896077289}
+  - {fileID: 8636741857917489582}
+  - {fileID: 3731720565894327500}
+  - {fileID: 6852183758791841828}
+  - {fileID: 2609762979490560795}
+  - {fileID: 2786033779523425968}
+  - {fileID: -954176631278117815}
+  - {fileID: 820012559094560178}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -334,22 +334,22 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: 3666862241103884911}
-  - {fileID: -4775710580446015445}
-  - {fileID: 2885390203835007189}
-  - {fileID: -7698872371338867149}
-  - {fileID: -5969592398768556635}
-  - {fileID: 7615820686680566825}
-  - {fileID: 1430047079306516672}
-  - {fileID: 9108959212296605154}
-  - {fileID: -8389092525305846712}
-  - {fileID: 243902140072080933}
-  - {fileID: 4452719274471595573}
-  - {fileID: 3607844415995846731}
-  - {fileID: 5125816694974108186}
-  - {fileID: 2353982176350708730}
-  - {fileID: 1368598387411113977}
   - {fileID: 3802897869556252753}
+  - {fileID: 4452719274471595573}
+  - {fileID: -7698872371338867149}
+  - {fileID: 243902140072080933}
+  - {fileID: 2353982176350708730}
+  - {fileID: 5125816694974108186}
+  - {fileID: 2885390203835007189}
+  - {fileID: 1430047079306516672}
+  - {fileID: 3607844415995846731}
+  - {fileID: -8389092525305846712}
+  - {fileID: 1368598387411113977}
+  - {fileID: -4775710580446015445}
+  - {fileID: -5969592398768556635}
+  - {fileID: 9108959212296605154}
+  - {fileID: 3666862241103884911}
+  - {fileID: 7615820686680566825}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7365b139f7aec43b23d26b7a48b5a6, type: 3}
   m_Name: MetaQuestTouchPlusControllerProfile Android
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Meta Quest Touch Plus Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestplus
@@ -781,7 +781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
