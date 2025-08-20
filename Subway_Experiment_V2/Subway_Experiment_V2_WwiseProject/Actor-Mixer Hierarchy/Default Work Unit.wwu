@@ -1,6 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F392E28A-088C-4D4E-B675-13C14734EBFD}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{F392E28A-088C-4D4E-B675-13C14734EBFD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F392E28A-088C-4D4E-B675-13C14734EBFD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Music_test" ID="{5688EC3C-EF17-44E1-981D-9CA2D13EFB35}" ShortID="730201730">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC171786-232D-4273-B089-6A79A73E907B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Feel The Heat - Sega Bass Fishing" ID="{1787BE51-0E3E-4E36-870E-CBFD030828AC}">
+							<Language>SFX</Language>
+							<AudioFile>Feel The Heat - Sega Bass Fishing.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="735850728"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Feel The Heat - Sega Bass Fishing" ID="{1787BE51-0E3E-4E36-870E-CBFD030828AC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
