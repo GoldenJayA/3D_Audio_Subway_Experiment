@@ -32,6 +32,107 @@
 						<ActiveSource Name="Feel The Heat - Sega Bass Fishing" ID="{1787BE51-0E3E-4E36-870E-CBFD030828AC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Train_SFX" ID="{34688124-54C5-4813-823E-04FB2AA8C921}" ShortID="367921620">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Sound Name="Train_1" ID="{2EA2C0B5-2ACD-43E7-B6BA-290D32C76A95}" ShortID="873016220">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Train_falloff_curve" ID="{77F0D1EB-BFE5-4B97-B4A4-0A177DD3D6CC}" WorkUnitID="{9F8C4558-6EDA-4D7B-B90F-459EDD2639DC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC171786-232D-4273-B089-6A79A73E907B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{229F1B2F-08D2-491F-B922-5DF145A8E740}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Train_arrival_n_depart_Event_-001" ID="{3243EC69-8D29-4D91-8889-90730FA5F6B6}">
+									<Language>SFX</Language>
+									<AudioFile>Train_arrival_n_depart_Event_-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="943379153"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Train_arrival_n_depart_Event_-001" ID="{3243EC69-8D29-4D91-8889-90730FA5F6B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Train_2" ID="{83EBD94A-B3D1-4610-90DD-BBBF9910F501}" ShortID="752416261">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Train_falloff_curve" ID="{77F0D1EB-BFE5-4B97-B4A4-0A177DD3D6CC}" WorkUnitID="{9F8C4558-6EDA-4D7B-B90F-459EDD2639DC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC171786-232D-4273-B089-6A79A73E907B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{229F1B2F-08D2-491F-B922-5DF145A8E740}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Train_arrival_n_depart_Event_-002" ID="{E1CEDA8A-8ABD-4E3C-BA69-5E2CBB54619F}">
+									<Language>SFX</Language>
+									<AudioFile>Train_arrival_n_depart_Event_-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="124892977"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Train_arrival_n_depart_Event_-002" ID="{E1CEDA8A-8ABD-4E3C-BA69-5E2CBB54619F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Train_3" ID="{DB2994C6-8F9C-48E4-A8DA-AF77B2BE297F}" ShortID="458897097">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Train_falloff_curve" ID="{77F0D1EB-BFE5-4B97-B4A4-0A177DD3D6CC}" WorkUnitID="{9F8C4558-6EDA-4D7B-B90F-459EDD2639DC}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC171786-232D-4273-B089-6A79A73E907B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb" ID="{229F1B2F-08D2-491F-B922-5DF145A8E740}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Train_arrival_n_depart_Event_-003" ID="{FF74CB47-6A35-4F98-BB11-C9731996C389}">
+									<Language>SFX</Language>
+									<AudioFile>Train_arrival_n_depart_Event_-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="678065261"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Train_arrival_n_depart_Event_-003" ID="{FF74CB47-6A35-4F98-BB11-C9731996C389}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

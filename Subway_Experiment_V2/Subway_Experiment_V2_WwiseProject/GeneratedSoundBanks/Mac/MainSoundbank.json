@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{A954F12F-A415-43C8-A88D-ED36878EE1D6}",
     "Language": "SFX",
-    "Hash": "{7AACDDF9-117D-DB5B-8DF6-565266773D46}",
+    "Hash": "{C493E4B3-136F-7CEA-195A-154A4317207F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MainSoundbank",
     "ShortName": "MainSoundbank",
     "Path": "MainSoundbank.bnk",
     "Media": [
+     {
+      "Id": "124892977",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Train_arrival_n_depart_Event_-002.wav",
+      "CachePath": "70/{701A26CF-1054-C68A-9241-CE4EFC9B1C20}.wem"
+     },
+     {
+      "Id": "678065261",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Train_arrival_n_depart_Event_-003.wav",
+      "CachePath": "5E/{5E8F2261-72FE-FE44-F8BB-A14BEECD21D4}.wem"
+     },
      {
       "Id": "735850728",
       "Language": "SFX",
@@ -22,8 +38,28 @@
       "Location": "Memory",
       "ShortName": "Feel The Heat - Sega Bass Fishing.wav",
       "CachePath": "9F/{9FDD3313-235B-308D-D409-0D13B255618F}.wem"
+     },
+     {
+      "Id": "943379153",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Train_arrival_n_depart_Event_-001.wav",
+      "CachePath": "11/{11DE1DEE-80AD-B2C7-ABF9-B7A3066367CE}.wem"
      }
     ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "1039936619",
+       "Name": "RoomVerb (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\[Effect Slot [0]: (RoomVerb)]\\RoomVerb (Custom)",
+       "GUID": "{1AF50C97-65BA-4A75-A814-A2CC304172C3}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1618187162",
@@ -38,10 +74,102 @@
         "Id": "735850728"
        }
       ]
+     },
+     {
+      "Id": "1981762785",
+      "Name": "Train_Event1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Train Events\\Train_Event1",
+      "GUID": "{EF007325-EC7D-4959-9F6B-0C86F3037112}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "35",
+      "DurationMax": "35",
+      "MediaRefs": [
+       {
+        "Id": "943379153"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{229F1B2F-08D2-491F-B922-5DF145A8E740}"
+       }
+      ]
+     },
+     {
+      "Id": "1981762786",
+      "Name": "Train_Event2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Train Events\\Train_Event2",
+      "GUID": "{4F51357E-C0C9-4E4B-A504-5E1C0BA6DA34}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "44.5",
+      "DurationMax": "44.5",
+      "MediaRefs": [
+       {
+        "Id": "124892977"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{229F1B2F-08D2-491F-B922-5DF145A8E740}"
+       }
+      ]
+     },
+     {
+      "Id": "1981762787",
+      "Name": "Train_Event3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Train Events\\Train_Event3",
+      "GUID": "{47EBE28E-E3C9-4918-9E6A-245D9BC83A5A}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "48.5",
+      "DurationMax": "48.5",
+      "MediaRefs": [
+       {
+        "Id": "678065261"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "348963605",
+        "Name": "Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+        "GUID": "{229F1B2F-08D2-491F-B922-5DF145A8E740}"
+       }
+      ]
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "348963605",
+      "Name": "Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb",
+      "GUID": "{229F1B2F-08D2-491F-B922-5DF145A8E740}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1039936619"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{963F0742-CFAC-CD2A-1FCA-A8E511E95600}"
+  "FileHash": "{70580E9D-F023-C9FE-4E15-A8325649F7AD}"
  }
 }

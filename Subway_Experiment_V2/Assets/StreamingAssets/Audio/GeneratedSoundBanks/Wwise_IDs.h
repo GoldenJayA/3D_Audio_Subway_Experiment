@@ -14,6 +14,9 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID EVENT_TEST = 1618187162U;
+        static const AkUniqueID TRAIN_EVENT1 = 1981762785U;
+        static const AkUniqueID TRAIN_EVENT2 = 1981762786U;
+        static const AkUniqueID TRAIN_EVENT3 = 1981762787U;
     } // namespace EVENTS
 
     namespace BANKS
@@ -26,6 +29,11 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB = 348963605U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

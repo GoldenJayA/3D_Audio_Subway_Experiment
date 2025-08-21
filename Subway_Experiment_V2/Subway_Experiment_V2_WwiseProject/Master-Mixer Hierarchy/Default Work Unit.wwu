@@ -9,6 +9,31 @@
 							<ObjectRef Name="System" ID="{F1DAFD26-3830-44BA-9D5B-B4C94E182E11}" WorkUnitID="{9AD43D51-C11A-424F-9AD3-D5F17F560970}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Reverb" ID="{229F1B2F-08D2-491F-B922-5DF145A8E740}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{AB5B6D9B-673A-4226-A565-6D02813F7C33}" ShortID="381899018">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="RoomVerb (Custom)" ID="{1AF50C97-65BA-4A75-A814-A2CC304172C3}" ShortID="1039936619" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<PropertyList>
+																	<Property Name="ERPattern" Type="int32" Value="5"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -1,6 +1,21 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1618187162	Event_test			\Default Work Unit\Event_test	
+	1981762785	Train_Event1			\Default Work Unit\Train Events\Train_Event1	
+	1981762786	Train_Event2			\Default Work Unit\Train Events\Train_Event2	
+	1981762787	Train_Event3			\Default Work Unit\Train Events\Train_Event3	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1039936619	RoomVerb (Custom)	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	124892977	Train_2	C:\Users\angel\OneDrive\Desktop\Thesis project folder\Github Repository\3D_Audio_Subway_Experiment\Subway_Experiment_V2\Subway_Experiment_V2_WwiseProject\.cache\70\{701A26CF-1054-C68A-9241-CE4EFC9B1C20}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Train_SFX\Train_2		4272096
+	678065261	Train_3	C:\Users\angel\OneDrive\Desktop\Thesis project folder\Github Repository\3D_Audio_Subway_Experiment\Subway_Experiment_V2\Subway_Experiment_V2_WwiseProject\.cache\5E\{5E8F2261-72FE-FE44-F8BB-A14BEECD21D4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Train_SFX\Train_3		4656096
 	735850728	Music_test	C:\Users\angel\OneDrive\Desktop\Thesis project folder\Github Repository\3D_Audio_Subway_Experiment\Subway_Experiment_V2\Subway_Experiment_V2_WwiseProject\.cache\9F\{9FDD3313-235B-308D-D409-0D13B255618F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music_test		30933088
+	943379153	Train_1	C:\Users\angel\OneDrive\Desktop\Thesis project folder\Github Repository\3D_Audio_Subway_Experiment\Subway_Experiment_V2\Subway_Experiment_V2_WwiseProject\.cache\11\{11DE1DEE-80AD-B2C7-ABF9-B7A3066367CE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Train_SFX\Train_1		3360096
 

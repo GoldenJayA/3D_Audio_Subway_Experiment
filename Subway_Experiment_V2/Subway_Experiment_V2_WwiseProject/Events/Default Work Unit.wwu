@@ -14,6 +14,52 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Train Events" ID="{4AE51ACB-3F1C-4BA4-8562-903AA7691E34}" ShortID="923947557">
+					<ChildrenList>
+						<Event Name="Train_Event2" ID="{4F51357E-C0C9-4E4B-A504-5E1C0BA6DA34}">
+							<ChildrenList>
+								<Action Name="" ID="{0F43ABC4-6F64-4245-AE00-6B2118160618}" ShortID="421919339">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Train_2" ID="{83EBD94A-B3D1-4610-90DD-BBBF9910F501}" WorkUnitID="{F392E28A-088C-4D4E-B675-13C14734EBFD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Train_Event3" ID="{47EBE28E-E3C9-4918-9E6A-245D9BC83A5A}">
+							<ChildrenList>
+								<Action Name="" ID="{6851FFE9-16CC-4343-A472-84915073A46F}" ShortID="582881136">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Train_3" ID="{DB2994C6-8F9C-48E4-A8DA-AF77B2BE297F}" WorkUnitID="{F392E28A-088C-4D4E-B675-13C14734EBFD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Train_Event1" ID="{EF007325-EC7D-4959-9F6B-0C86F3037112}">
+							<ChildrenList>
+								<Action Name="" ID="{1E8E4E82-03F1-4CF7-A987-5F6615376B0D}" ShortID="1056430601">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Train_1" ID="{2EA2C0B5-2ACD-43E7-B6BA-290D32C76A95}" WorkUnitID="{F392E28A-088C-4D4E-B675-13C14734EBFD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

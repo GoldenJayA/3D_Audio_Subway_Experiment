@@ -6,6 +6,10 @@
 				<SoundBank Name="MainSoundbank" ID="{A954F12F-A415-43C8-A88D-ED36878EE1D6}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Event_test" ID="{88C3BD68-6295-449F-9C83-6471322B538A}" WorkUnitID="{31FAD617-D984-43C0-AE68-60CD58FDCB56}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Train_Event3" ID="{47EBE28E-E3C9-4918-9E6A-245D9BC83A5A}" WorkUnitID="{31FAD617-D984-43C0-AE68-60CD58FDCB56}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Reverb" ID="{229F1B2F-08D2-491F-B922-5DF145A8E740}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Train_Event1" ID="{EF007325-EC7D-4959-9F6B-0C86F3037112}" WorkUnitID="{31FAD617-D984-43C0-AE68-60CD58FDCB56}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Train_Event2" ID="{4F51357E-C0C9-4E4B-A504-5E1C0BA6DA34}" WorkUnitID="{31FAD617-D984-43C0-AE68-60CD58FDCB56}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
