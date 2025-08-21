@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 77735c5e22d4f6469c26e2fda9b9a6d6
     GuidInternal: 
-    m_lastTime: -8584462289714488246
+    m_lastTime: -8584458669131877371
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Reverb
+      guid: 2f1b9f22d2081f49b9225df145a8e740
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 77735c5e22d4f6469c26e2fda9b9a6d6
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb
+        ObjectType: 1
+        guid: 2f1b9f22d2081f49b9225df145a8e740
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 584d52c7f4434246a7f4659058ad1467
     GuidInternal: 
-    m_lastTime: -8584459746183408787
+    m_lastTime: -8584458668520051990
     List:
     - name: MainSoundbank
       guid: 2ff154a915a4c843a88ded36878ee1d6
@@ -94,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 17d6fa3184d9c043ae6860cd58fdcb56
     GuidInternal: 
-    m_lastTime: -8584459746183483871
+    m_lastTime: -8584458669131977752
     List:
     - name: Event_test
       guid: 68bdc38895629f449c836471322b538a
@@ -113,6 +130,83 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 161.10933
       minDuration: 161.10933
+    - name: Train Events
+      guid: cb1ae54a1c3fa44b8562903aa7691e34
+      id: 3397121388
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 17d6fa3184d9c043ae6860cd58fdcb56
+      - ElementName: Train Events
+        ObjectType: 4
+        guid: cb1ae54a1c3fa44b8562903aa7691e34
+      Path: Events\Default Work Unit\Train Events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Train_Event1
+      guid: 257300ef7dec59499f6b0c86f3037112
+      id: 1981762785
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 17d6fa3184d9c043ae6860cd58fdcb56
+      - ElementName: Train Events
+        ObjectType: 4
+        guid: cb1ae54a1c3fa44b8562903aa7691e34
+      - ElementName: Train_Event1
+        ObjectType: 3
+        guid: 257300ef7dec59499f6b0c86f3037112
+      Path: Events\Default Work Unit\Train Events\Train_Event1
+      maxAttenuation: 100
+      maxDuration: 35
+      minDuration: 35
+    - name: Train_Event2
+      guid: 7e35514fc9c04b4ea5045e1c0ba6da34
+      id: 1981762786
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 17d6fa3184d9c043ae6860cd58fdcb56
+      - ElementName: Train Events
+        ObjectType: 4
+        guid: cb1ae54a1c3fa44b8562903aa7691e34
+      - ElementName: Train_Event2
+        ObjectType: 3
+        guid: 7e35514fc9c04b4ea5045e1c0ba6da34
+      Path: Events\Default Work Unit\Train Events\Train_Event2
+      maxAttenuation: 100
+      maxDuration: 44.5
+      minDuration: 44.5
+    - name: Train_Event3
+      guid: 8ee2eb47c9e318499e6a245d9bc83a5a
+      id: 1981762787
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 17d6fa3184d9c043ae6860cd58fdcb56
+      - ElementName: Train Events
+        ObjectType: 4
+        guid: cb1ae54a1c3fa44b8562903aa7691e34
+      - ElementName: Train_Event3
+        ObjectType: 3
+        guid: 8ee2eb47c9e318499e6a245d9bc83a5a
+      Path: Events\Default Work Unit\Train Events\Train_Event3
+      maxAttenuation: 100
+      maxDuration: 48.5
+      minDuration: 48.5
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -125,7 +219,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 827b0397a8205a47a7cada56938ea52f
     GuidInternal: 
-    m_lastTime: -8584462289715743736
+    m_lastTime: -8584458742860330725
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
