@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class TrainMovementScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float speed = 3;
+    public Vector3 target = new Vector3(0,0,2);
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);        
     }
 }
