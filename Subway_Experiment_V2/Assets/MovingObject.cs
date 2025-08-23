@@ -6,6 +6,9 @@ public class MovingObject : MonoBehaviour
 {
     public float speed = 3;
 
+    // Use this if the code below doesnt work:
+    // transform.Translate(transform.forward * speed * time.deltaTime, Space.World);
+
     // Update is called once per frame
     private void Update()
     {
