@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A954F12F-A415-43C8-A88D-ED36878EE1D6}",
     "Language": "SFX",
-    "Hash": "{C493E4B3-136F-7CEA-195A-154A4317207F}",
+    "Hash": "{D5AFA9EE-7C9A-6743-794D-382693F81CD7}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MainSoundbank",
     "ShortName": "MainSoundbank",
     "Path": "MainSoundbank.bnk",
@@ -51,6 +51,14 @@
     "Plugins": {
      "Custom": [
       {
+       "Id": "905004236",
+       "Name": "Steam Audio Spatializer (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Train_SFX\\Train_1\\[Effect Slot [0]: (Steam Audio Spatializer)]\\Steam Audio Spatializer (Custom)",
+       "GUID": "{16360D16-A507-44EB-93B0-1266D78864FA}",
+       "LibName": "Steam Audio Spatializer",
+       "LibId": "1987253171"
+      },
+      {
        "Id": "1039936619",
        "Name": "RoomVerb (Custom)",
        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\[Effect Slot [0]: (RoomVerb)]\\RoomVerb (Custom)",
@@ -66,6 +74,7 @@
       "Name": "Event_test",
       "ObjectPath": "\\Events\\Default Work Unit\\Event_test",
       "GUID": "{88C3BD68-6295-449F-9C83-6471322B538A}",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "161.10933",
       "DurationMax": "161.10933",
@@ -89,6 +98,13 @@
         "Id": "943379153"
        }
       ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "905004236"
+        }
+       ]
+      },
       "AuxBusRefs": [
        {
         "Id": "348963605",
@@ -170,6 +186,6 @@
     ]
    }
   ],
-  "FileHash": "{BAB257A0-E334-C04A-5D9A-D86EDCDFD4E3}"
+  "FileHash": "{675371F1-14C6-88EF-6822-83E3C778758A}"
  }
 }

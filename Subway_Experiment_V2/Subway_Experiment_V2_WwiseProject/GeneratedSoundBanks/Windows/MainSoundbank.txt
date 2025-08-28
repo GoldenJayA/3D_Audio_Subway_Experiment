@@ -11,6 +11,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
+	905004236	Steam Audio Spatializer (Custom)	Steam Audio Spatializer			
 	1039936619	RoomVerb (Custom)	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

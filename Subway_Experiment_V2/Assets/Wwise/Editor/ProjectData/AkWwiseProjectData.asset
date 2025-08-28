@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 77735c5e22d4f6469c26e2fda9b9a6d6
     GuidInternal: 
-    m_lastTime: -8584458669131877371
+    m_lastTime: -8584451982917027284
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -127,7 +127,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 68bdc38895629f449c836471322b538a
       Path: Events\Default Work Unit\Event_test
-      maxAttenuation: 0
+      maxAttenuation: 50
       maxDuration: 161.10933
       minDuration: 161.10933
     - name: Train Events
@@ -264,8 +264,8 @@ MonoBehaviour:
     m_lastTime: -8584462289716459090
     List: []
   ExpandedFileSystemItemIds: 02000000030000000500000006000000070000000a0000000b0000000c0000000d0000000e000000
-  ExpandedWaapiItemIds: 02000000030000000500000006000000070000000a0000000b0000000c000000
+  ExpandedWaapiItemIds: 02000000030000000500000006000000070000000a0000000b0000000c0000000d0000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 

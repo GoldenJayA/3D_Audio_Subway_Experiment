@@ -13,10 +13,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
+#if STEAMAUDIO_ENABLED
 
 using System;
 using System.Runtime.InteropServices;
-#if STEAMAUDIO_ENABLED
 
 namespace SteamAudio
 {
