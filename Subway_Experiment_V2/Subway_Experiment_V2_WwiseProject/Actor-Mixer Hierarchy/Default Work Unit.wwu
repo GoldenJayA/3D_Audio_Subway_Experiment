@@ -153,6 +153,120 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Ambience" ID="{08A740C6-181A-4496-93E7-630847D39FF3}" ShortID="400971799">
+					<ChildrenList>
+						<Sound Name="AMBI_Subway_Interior_Ambisonic_FullMA" ID="{B112EA14-16CF-420E-82D1-8A62EFA1F732}" ShortID="162012107">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC171786-232D-4273-B089-6A79A73E907B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMBI_Subway_Interior_Ambisonic_FullMA" ID="{58BE5CCE-36F7-4607-8272-BB3168CDE632}">
+									<Language>SFX</Language>
+									<AudioFile>AMBI_Subway_Interior_Ambisonic_FullMA.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="256695882"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMBI_Subway_Interior_Ambisonic_FullMA" ID="{58BE5CCE-36F7-4607-8272-BB3168CDE632}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAural_Subway_High_Air" ID="{895B1334-8604-4484-8B51-CF19149321E3}" ShortID="649550983">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC171786-232D-4273-B089-6A79A73E907B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAural_Subway_High_Air" ID="{0A4FF684-607F-4619-BD41-428D6C112841}">
+									<Language>SFX</Language>
+									<AudioFile>BAural_Subway_High_Air.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="684338537"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAural_Subway_High_Air" ID="{0A4FF684-607F-4619-BD41-428D6C112841}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAural_Subway_Low_Rumble_0-001" ID="{79199C1D-1EB4-4958-B5FA-C912DC3614F3}" ShortID="920680179">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC171786-232D-4273-B089-6A79A73E907B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAural_Subway_Low_Rumble_0-001" ID="{1AC92302-E5D2-4414-99BF-8B9CC250A222}">
+									<Language>SFX</Language>
+									<AudioFile>BAural_Subway_Low_Rumble_0-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="441194410"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAural_Subway_Low_Rumble_0-001" ID="{1AC92302-E5D2-4414-99BF-8B9CC250A222}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAural_Subway_Low_Rumble_0-002" ID="{8EDAA56A-50EE-4318-88F8-5750B8FAF2CF}" ShortID="709257067">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC171786-232D-4273-B089-6A79A73E907B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAural_Subway_Low_Rumble_0-002" ID="{38688CEF-E995-4315-8E57-CE48ECB04FBF}">
+									<Language>SFX</Language>
+									<AudioFile>BAural_Subway_Low_Rumble_0-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="647606677"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAural_Subway_Low_Rumble_0-002" ID="{38688CEF-E995-4315-8E57-CE48ECB04FBF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BAural_Subway_Low_Rumble_03" ID="{E60E8479-DC00-4249-A750-13DF2B99B41B}" ShortID="282314382">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FC171786-232D-4273-B089-6A79A73E907B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E5C7377-D422-46F6-9C26-E2FDA9B9A6D6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BAural_Subway_Low_Rumble_03" ID="{590F54BD-CD1D-4130-9A7C-7918B428D03F}">
+									<Language>SFX</Language>
+									<AudioFile>BAural_Subway_Low_Rumble_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1067538825"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="BAural_Subway_Low_Rumble_03" ID="{590F54BD-CD1D-4130-9A7C-7918B428D03F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

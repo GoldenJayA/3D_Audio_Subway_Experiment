@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class TrainMovementScript : MonoBehaviour
 {
-    public float speed = 3;
-    public Vector3 target = new Vector3(0,0,2);
+    public float speed = 1;
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);        
+        transform.position = new Vector3(transform.position.x * speed * Time.deltaTime, transform.position.y * speed * Time.deltaTime, transform.position.z * speed * Time.deltaTime);        
     }
 }
