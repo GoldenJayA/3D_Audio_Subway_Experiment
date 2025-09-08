@@ -68,23 +68,6 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="Effects">
-									<Reference>
-										<Local>
-											<EffectSlot Name="" ID="{AAEB6E91-FB19-4E9B-9A04-DCC9A76C9DE7}" ShortID="651622761">
-												<ReferenceList>
-													<Reference Name="Effect">
-														<Custom>
-															<Effect Name="Steam Audio Spatializer (Custom)" ID="{16360D16-A507-44EB-93B0-1266D78864FA}" ShortID="905004236" PluginName="Steam Audio Spatializer" CompanyID="315" PluginID="30323" PluginType="3"/>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</EffectSlot>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="Train_arrival_n_depart_Event_-001" ID="{3243EC69-8D29-4D91-8889-90730FA5F6B6}" Platform="Linked"/>
 							</ActiveSourceList>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{A954F12F-A415-43C8-A88D-ED36878EE1D6}",
     "Language": "SFX",
-    "Hash": "{D5AFA9EE-7C9A-6743-794D-382693F81CD7}",
+    "Hash": "{B8F11063-927E-86FE-681F-B39C4C093D99}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MainSoundbank",
     "ShortName": "MainSoundbank",
     "Path": "MainSoundbank.bnk",
@@ -51,14 +51,6 @@
     "Plugins": {
      "Custom": [
       {
-       "Id": "905004236",
-       "Name": "Steam Audio Spatializer (Custom)",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Train_SFX\\Train_1\\[Effect Slot [0]: (Steam Audio Spatializer)]\\Steam Audio Spatializer (Custom)",
-       "GUID": "{16360D16-A507-44EB-93B0-1266D78864FA}",
-       "LibName": "Steam Audio Spatializer",
-       "LibId": "1987253171"
-      },
-      {
        "Id": "1039936619",
        "Name": "RoomVerb (Custom)",
        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\[Effect Slot [0]: (RoomVerb)]\\RoomVerb (Custom)",
@@ -98,13 +90,6 @@
         "Id": "943379153"
        }
       ],
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "905004236"
-        }
-       ]
-      },
       "AuxBusRefs": [
        {
         "Id": "348963605",
@@ -186,6 +171,6 @@
     ]
    }
   ],
-  "FileHash": "{A00A2BE9-D034-BA5E-9911-B330FE8A731A}"
+  "FileHash": "{3AC5B5A9-BD0D-A97F-6BE9-6915FC9DC0F0}"
  }
 }
