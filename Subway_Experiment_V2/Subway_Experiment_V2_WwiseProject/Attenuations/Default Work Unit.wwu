@@ -22,8 +22,8 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>41.90169</XPos>
-											<YPos>-0</YPos>
+											<XPos>37.69269</XPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
@@ -98,14 +98,14 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>49.8645</XPos>
-											<YPos>26.19646</YPos>
+											<XPos>53.63808</XPos>
+											<YPos>35.18083</YPos>
 											<Flags>0</Flags>
-											<SegmentShape>SCurve</SegmentShape>
+											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>100</XPos>
-											<YPos>28.90625</YPos>
+											<YPos>7.03125</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -133,7 +133,7 @@
 										</Point>
 										<Point>
 											<XPos>100</XPos>
-											<YPos>98.4375</YPos>
+											<YPos>61.71875</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

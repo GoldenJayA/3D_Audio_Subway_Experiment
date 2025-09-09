@@ -19,8 +19,15 @@
     "LibName": "No Output",
     "LibId": "11862023",
     "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Steam Audio Spatializer",
+    "LibId": "1987253171",
+    "Type": "Effect",
+    "DLL": "SteamAudioWwise",
+    "StaticLib": "SteamAudioWwiseFX"
    }
   ],
-  "FileHash": "{BFC96AC8-4F88-3DCF-DCDD-B6CF26CB600C}"
+  "FileHash": "{A81FACED-2071-53F2-BAD3-515663902F85}"
  }
 }

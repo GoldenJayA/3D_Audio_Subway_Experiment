@@ -44,6 +44,11 @@
 						<Sound Name="Train_1" ID="{2EA2C0B5-2ACD-43E7-B6BA-290D32C76A95}" ShortID="873016220">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -68,6 +73,23 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{F1963C0F-6608-4BC6-A44B-FA23515E1271}" ShortID="30034800">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Steam Audio Spatializer (Custom)" ID="{DEEE36A0-DFC8-456E-A09D-F082989BEA64}" ShortID="372373411" PluginName="Steam Audio Spatializer" CompanyID="315" PluginID="30323" PluginType="3"/>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="Train_arrival_n_depart_Event_-001" ID="{3243EC69-8D29-4D91-8889-90730FA5F6B6}" Platform="Linked"/>
 							</ActiveSourceList>
