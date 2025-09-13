@@ -159,12 +159,6 @@ namespace SteamAudio
         Callback
     }
 
-    public enum DeviationModelType
-    {
-        Default,
-        Callback
-    }
-
     public enum OcclusionType
     {
         Raycast,
@@ -236,9 +230,6 @@ namespace SteamAudio
 
     [UnmanagedFunctionPointer(CallingConvention.Winapi)]
     public delegate float AirAbsorptionCallback(float distance, int band, IntPtr userData);
-
-    [UnmanagedFunctionPointer(CallingConvention.Winapi)]
-    public delegate float DeviationCallback(float angle, int band, IntPtr userData);
 
     [UnmanagedFunctionPointer(CallingConvention.Winapi)]
     public delegate float DirectivityCallback(Vector3 direction, IntPtr userData);
@@ -536,14 +527,6 @@ namespace SteamAudio
     }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct DeviationModel
-    {
-        public DeviationModelType type;
-        public DeviationCallback callback;
-        public IntPtr userData;
-    }
-
-    [StructLayout(LayoutKind.Sequential)]
     public struct SimulationSettings
     {
         public SimulationFlags flags;
@@ -598,7 +581,6 @@ namespace SteamAudio
         public Bool enableValidation;
         public Bool findAlternatePaths;
         public int numTransmissionRays;
-        public IntPtr deviationModel;
     }
 
     [StructLayout(LayoutKind.Sequential)]
